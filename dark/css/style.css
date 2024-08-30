@@ -1,0 +1,205 @@
+/* 10-04-19 CSS File */
+
+body {
+    color:#FFCC99;
+    background-color: #291e48;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background-color:#003366; 
+    border:2px solid dodgerblue; 
+    border-radius:10px;
+    padding:10px; 
+    margin-top:20px; 
+    margin-left:30px; 
+    padding:20px; 
+    box-shadow:3px 3px 3px 3px blue;
+    flex:center; 
+    justify-content:center; 
+    align-items:center; 
+}
+
+#container {
+    margin:20px auto 20px auto;
+    width:1000px;
+    height:2000px;
+    border:2px solid dodgerblue;
+    padding:10px;
+    background-color:#003366;
+}
+
+#logo{
+    background-color:dodgerblue; 
+    border:2px solid dodgerblue; 
+    border-radius:10px; 
+    width:170px; 
+    height:170px; 
+    background-image:url(../images/helping_hand.jpg); 
+    background-position:center center; 
+    background-repeat:no-repeat; 
+    background-attachment:inherit; 
+    background-size:cover; 
+    margin-right:15px; 
+}
+
+#logo, #header{
+    float:left; 
+    height:170px; 
+    background-color:dodgerblue; 
+    border:2px solid dodgerblue; 
+    border-radius:10px; 
+    margin-bottom:15px;    
+}
+
+#header{
+    width:790px; 
+    text-align:center; 
+}
+
+#header h1{
+    margin-top:55px; 
+    font-size:xx-large; 
+    font-variant:small-caps; 
+}
+
+
+#main{
+    clear:both; 
+    height:auto; 
+    width:974px; 
+    height:1600px; 
+    border:2px solid dodgerblue; 
+    border-radius:10px; 
+    background-color:dodgerblue;
+    margin-bottom:15px;    
+}
+
+
+#main p{
+    padding:20px; 
+    text-align:left; 
+    text-indent:10px; 
+    font-size:large; 
+    line-height:2; 
+    
+    
+}
+
+#footer{
+    height:170px; 
+    width:974px; 
+    border:2px solid dodgerblue; 
+    border-radius:10px; 
+    background-color:dodgerblue;
+    text-align:center; 
+}
+
+#footer h2{
+    margin-top:55px; 
+    font-size:xx-large; 
+}
+
+/* Color Palette
+.color1 { color: #030303}
+.color2 { color: #050507}
+.color3 { color: #020204}
+.color4 { color: #030305}
+.color5 { color: #040404}
+.color6 { color: #0f0f11}
+.color7 { color: #0a090e}
+.color8 { color: #05060b}
+.color9 { color: #000209}
+.color10 { color: #02050c}
+.color11 { color: #0a0d14}
+.color12 { color: #040509}
+.color13 { color: #030207}
+.color14 { color: #010511}
+.color15 { color: #010415}
+.color16 { color: #05081b}
+.color17 { color: #080b1e}
+.color18 { color: #070a1b}
+.color19 { color: #060a15}
+.color20 { color: #040612}
+.color21 { color: #0a0b20}
+.color22 { color: #07051d}
+.color23 { color: #100d2a}
+.color24 { color: #111030}
+.color25 { color: #0e0f2e}
+.color26 { color: #060a25}
+.color27 { color: #040a20}
+.color28 { color: #0e0729}
+.color29 { color: #080020}
+.color30 { color: #190a31}
+.color31 { color: #1f123d}
+.color32 { color: #291e48}
+.color33 { color: #130e36}
+.color34 { color: #101034}
+.color35 { color: #1e1238}
+.color36 { color: #201138}
+.color37 { color: #21123b}
+.color38 { color: #24153e}
+.color39 { color: #1c1139}
+.color40 { color: #1e183e}
+.color41 { color: #1d1433}
+.color42 { color: #1f1436}
+.color43 { color: #1f1434}
+.color44 { color: #1d1230}
+.color45 { color: #1c1330}
+.color46 { color: #1d1232}
+.color47 { color: #18122e}
+
+
+
+*/
+
+
+
+/* Google Fonts
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* Full Screen Image
+
+background-image:URL(/images/);
+background-position: center center;
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size:  cover;
+background-color: #999;
+
+*/
+
+/*  Making a Fullscreen Video Background 
+
+#video-background{
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+*/
+
+/* Individual Side Box Shadows
+
+top {
+  box-shadow: 0px -15px 10px -15px #111;
+}
+bottom {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+left {
+  box-shadow: -15px 0px 10px -15px #111;
+}
+right {
+  box-shadow: 15px 0px 10px -15px #111;
+}
+
+*/

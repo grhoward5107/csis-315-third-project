@@ -1,0 +1,139 @@
+/* 10-04-19 CSS File */
+
+body {
+    color:#2C6700;
+    background-color: #92CD00;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background-color:linen; 
+    border:2px solid #2c6700; 
+    border-radius:10px; 
+    margin-left:20px; 
+    margin-top:10px; 
+    margin-bottom:10px;
+    margin-right:10px; 
+    padding:10px; 
+    box-shadow:3px 3px 3px 3px lightgray; 
+}
+
+#container {
+    margin:20px auto 20px auto;
+    width:1000px;
+    height:2000px;
+    border:2px solid #92CD00; 
+    border-radius:10px; 
+    padding:10px;
+    background-color:#FFCF79; 
+}
+
+
+#logo{ 
+    width:170px; 
+    background-image:url(../images/life_coach_logo.jpg); 
+    background-position:center center; 
+    background-repeat:no-repeat;
+    background-attachment:inherit; 
+    background-size:cover;
+    margin-right:10px; 
+}
+
+#logo, #header{
+    float:left; 
+    background-color:linen;
+    height:170px; 
+    border:2px solid linen; 
+    border-radius:10px;
+    margin-bottom:15px; 
+}
+
+#header{
+    width:790px;
+    text-align:center; 
+}
+
+#header h1{
+    margin-top:55px; 
+    font-size:xx-large; 
+    font-variant:small-caps; 
+}
+
+#main{
+    clear:both; 
+    border:2px solid linen;
+    border-radius:10px; 
+    background-color:linen; 
+    width:972px; 
+    height:1600px;
+    margin-bottom:15px; 
+}
+
+#main p{
+    padding:20px; 
+    text-indent:10px; 
+    font-size:large; 
+    line-height:2; 
+}
+
+#footer{
+    border:2px solid linen; 
+    border-radius:10px; 
+    background-color:linen; 
+    height:170px; 
+    width:972px; 
+    text-align:center; 
+}
+
+#footer h2{
+    font-size:x-large; 
+    margin-top:55px; 
+}
+/* Google Fonts
+
+font-family: 'Roboto', sans-serif;
+
+*/
+
+/* Full Screen Image
+
+background-image:URL(/images/);
+background-position: center center;
+background-repeat:  no-repeat;
+background-attachment: fixed;
+background-size:  cover;
+background-color: #999;
+
+*/
+
+/*  Making a Fullscreen Video Background 
+
+#video-background{
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+
+*/
+
+/* Individual Side Box Shadows
+
+top {
+  box-shadow: 0px -15px 10px -15px #111;
+}
+bottom {
+  box-shadow: 0px 15px 10px -15px #111;
+}
+left {
+  box-shadow: -15px 0px 10px -15px #111;
+}
+right {
+  box-shadow: 15px 0px 10px -15px #111;
+}
+
+*/
